@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.cover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/IMG_9992.JPG");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.cover-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    
+
+
+}
+.cover-text > h1{
+    font-size: 50px;
+    font-style: oblique;
+    
+
+}
+
+
+.cover-text > a {
+    color:whitesmoke;
+    font-size: 50px;
+
+}
